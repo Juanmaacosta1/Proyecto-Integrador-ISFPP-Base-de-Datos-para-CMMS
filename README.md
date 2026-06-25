@@ -1,4 +1,4 @@
-# 🛠️ Sistema Computarizado de Gestión de Mantenimiento (CMMS) - BoscoMaq S.A.
+#  Sistema Computarizado de Gestión de Mantenimiento (CMMS) - GRUPO AMARILLO
 
 **Instancia Supervisada de Formación Práctica Profesional (ISFPP) - Bases de Datos 2025 - UNPSJB**
 
@@ -6,14 +6,14 @@ Este repositorio contiene el diseño e implementación de una base de datos rela
 
 El objetivo principal de este sistema es centralizar la información de los activos físicos, organizar y planificar las tareas de mantenimiento (preventivo y correctivo), asignar trabajos a técnicos, llevar registros de auditoría y conservar la trazabilidad de toda la información.
 
-## 📋 Características y Requerimientos
+##  Características y Requerimientos
 
 El modelo de base de datos abarca los siguientes módulos principales:
 
-* 👥 **Gestión de Usuarios y Técnicos:** Almacena información de administradores, planificadores y técnicos, incluyendo roles, turnos laborales y especialidades.
-* 📍 **Ubicaciones:** Estructura jerárquica para representar la disposición física de la empresa (ej. Planta -> Sector -> Línea de Producción).
-* ⚙️ **Gestión de Activos:** Registro detallado de máquinas y equipos (estado, especificaciones) con soporte para jerarquías (activos compuestos por otros activos).
-* 📋 **Órdenes de Trabajo (OT):** Seguimiento de mantenimientos preventivos y correctivos, incluyendo prioridades, estados, tiempos estimados vs. reales y técnicos asignados.
+*  **Gestión de Usuarios y Técnicos:** Almacena información de administradores, planificadores y técnicos, incluyendo roles, turnos laborales y especialidades.
+*  **Ubicaciones:** Estructura jerárquica para representar la disposición física de la empresa (ej. Planta -> Sector -> Línea de Producción).
+*  **Gestión de Activos:** Registro detallado de máquinas y equipos (estado, especificaciones) con soporte para jerarquías (activos compuestos por otros activos).
+*  **Órdenes de Trabajo (OT):** Seguimiento de mantenimientos preventivos y correctivos, incluyendo prioridades, estados, tiempos estimados vs. reales y técnicos asignados.
 *  **Mantenimiento Preventivo:** Programación de tareas rutinarias en base a frecuencias definidas.
 *  **Registros y Documentación:** Historial de eventos de mantenimiento, soporte para archivos adjuntos (manuales, reportes) y comentarios.
 *  **Auditoría:** Trazabilidad estricta sobre cambios de datos críticos, como el estado de las órdenes de trabajo.
